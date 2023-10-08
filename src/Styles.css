@@ -1,0 +1,139 @@
+/* styles.css */
+/* CourseCard */
+.course-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* CoursePage */
+  .course-page {
+    background-color: #f7f7f7;
+    padding: 16px;
+  }
+  
+  .course-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  /* Module */
+  .module {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .module-title {
+    font-size: 20px;
+  }
+  
+  .module iframe {
+    width: 100%;
+    height: 615px;
+    border: none;
+  }
+
+  
+  /* styles.css */
+/* CoursePage */
+.free-button, .premium-button {
+    padding: 8px 16px;
+    margin-right: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .free-button:hover, .premium-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Module */
+  .chapter-button {
+    padding: 8px 16px;
+    margin: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .chapter-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  /* Quiz.css */
+.quiz-container {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .question-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .options-list li {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .options-list li:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .quiz-button{
+    padding: 8px 16px;
+    margin-right: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  
